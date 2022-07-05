@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.header{
+    font-family: 'Roboto Mono', 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grid{
+    height: 350px;
+    width: 350px;
+    margin-left: 350px;
+    border: 2px solid red;
+}
