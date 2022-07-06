@@ -7,9 +7,9 @@
     margin-bottom: 50px;
 }
 
-.grid{
-    height: 350px;
-    width: 350px;
-    margin-left: 350px;
+#grid{
+    height: 500px;
+    width: 500px;
+    margin-left: 1000px;
     border: 2px solid red;
 }
