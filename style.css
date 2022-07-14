@@ -10,7 +10,7 @@
 #grid{
     height: 500px;
     width: 500px;
-    margin-left: 1000px;
+    margin-left: 100px;
     border: 2px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -18,4 +18,15 @@
 
 .grid{
     background-color: white;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    margin-bottom: 300px;
+    margin-left: 500px;
 }
