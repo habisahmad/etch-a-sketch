@@ -28,5 +28,17 @@
 
 .color{
     margin-bottom: 300px;
-    margin-left: 500px;
+    margin-left: 300px;
+}
+
+.color,
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+button{
+    margin-top: 50px;
 }
