@@ -1,4 +1,11 @@
 const grid = document.querySelector('#grid');
+const slider = document.querySelector('#pixelslider')
+var output = document.querySelector(".slider");
+output.innerHTML = slider.value
+
+slider.oninput = function(){
+    output.innerHTML = this.value;
+}
 
 for(let i = 0; i < 16*16; i++){
     const content = document.createElement('div');
