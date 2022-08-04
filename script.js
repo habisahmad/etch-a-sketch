@@ -1,6 +1,6 @@
 const grid = document.querySelector('#grid');
 const slider = document.querySelector('#pixelslider')
-var output = document.querySelector(".slider");
+var output = document.querySelector(".pixels");
 
 slider.oninput = function(){
     output.innerHTML = this.value;
