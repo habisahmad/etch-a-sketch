@@ -1,8 +1,11 @@
 const grid = document.querySelector('#grid');
 
 let val = 0
+let isUsed = false;
 
-function sixteenFunction(){
+document.getElementById("16x16").onclick = function() {
+    //disable
+    //this.disabled = true;
     for(let i = 0; i < 16*16; i++){
         const content = document.createElement('div');
         content.classList.add('grid');
@@ -12,7 +15,9 @@ function sixteenFunction(){
     }
 }
 
-function thirtytwoFunction(){
+document.getElementById("32x32").onclick = function() {
+    //disable
+    //this.disabled = true;
     for(let i = 0; i < 32*32; i++){
         const content = document.createElement('div');
         content.classList.add('grid');
@@ -20,6 +25,10 @@ function thirtytwoFunction(){
         content.setAttribute('style', 'flex: 1; flex-basis: 16px;')
         grid.appendChild(content)
     }
+}
+
+function myFunc(){
+    $('#grid div').empty()
 }
 
 const colorpicker = document.querySelector('#color');
