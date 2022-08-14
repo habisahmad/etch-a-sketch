@@ -88,3 +88,12 @@ button:active {
   box-shadow: none;
   transform: translateY(0);
 }
+
+.color{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 250px;
+    margin-top: 50px;
+
+}
