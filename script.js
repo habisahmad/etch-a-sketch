@@ -1,17 +1,25 @@
 const grid = document.querySelector('#grid');
-const slider = document.querySelector('#pixelslider')
-var output = document.querySelector(".pixels");
 
-slider.oninput = function(){
-    output.innerHTML = this.value;
+let val = 0
+
+function sixteenFunction(){
+    for(let i = 0; i < 16*16; i++){
+        const content = document.createElement('div');
+        content.classList.add('grid');
+        content.style.border = '0.5px solid red'
+        content.setAttribute('style', 'flex: 1; flex-basis: 32px;')
+        grid.appendChild(content)
+    }
 }
 
-for(let i = 0; i < 16*16; i++){
-    const content = document.createElement('div');
-    content.classList.add('grid');
-    content.style.border = '0.5px solid red'
-    content.setAttribute('style', 'flex-basis: 32px;')
-    grid.appendChild(content)
+function thirtytwoFunction(){
+    for(let i = 0; i < 32*32; i++){
+        const content = document.createElement('div');
+        content.classList.add('grid');
+        content.style.border = '0.5px solid red'
+        content.setAttribute('style', 'flex: 1; flex-basis: 16px;')
+        grid.appendChild(content)
+    }
 }
 
 const colorpicker = document.querySelector('#color');
